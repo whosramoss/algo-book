@@ -5,7 +5,6 @@
   <a  href="https://onecompiler.com/">onecompiler</a>.
 </p>
 
-
 <div align="center">
   <img src="https://img.shields.io/badge/Python-242424?style=for-the-badge&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/Java-242424?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
@@ -16,20 +15,20 @@
 
 <br/>
 
-| Name          | Level         | Files                                                                                         |
-|---------------|---------------|-----------------------------------------------------------------------------------------------|
-| Binary Search | Easy          | [Python](./binary_search/binary_search.py) - [TypeScript](./binary_search/binary_search.ts) - [Java](./binary_search/binary_search.java) - [Go](./binary_search/binary_search.go) |
+| Name          | Level | Files                                                                                                                                                                             |
+| ------------- | ----- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Binary Search | Easy  | [Python](./binary_search/binary_search.py) - [TypeScript](./binary_search/binary_search.ts) - [Java](./binary_search/binary_search.java) - [Go](./binary_search/binary_search.go) |
+| Branch Sums   | Easy  | [Python](./branch_sums/branch_sums.py) - [TypeScript](./branch_sums/branch_sums.ts) - [Java](./branch_sums/branch_sums.java) - [Go](./branch_sums/branch_sums.go)                 |
 
+## Contributing
 
-
-## Contributing 
 If you want to contribute to `algo-book`, please make sure to review the [contribution guidelines](https://github.com/whosramoss/algo-book/blob/master/CONTRIBUTING.md). This project makes use of [GitHub issues](https://github.com/whosramoss/algo-book/issues) for
 tracking requests and bugs.
 
-## License 
+## License
 
 MIT License. [LICENSE](./LICENSE)
 
-## Author 
+## Author
 
 Gabriel Ramos ([@whosramoss](https://github.com/whosramoss))
