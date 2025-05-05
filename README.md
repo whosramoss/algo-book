@@ -19,6 +19,7 @@
 | ------------- | ----- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Binary Search | Easy  | [Python](./binary_search/binary_search.py) - [TypeScript](./binary_search/binary_search.ts) - [Java](./binary_search/binary_search.java) - [Go](./binary_search/binary_search.go) |
 | Branch Sums   | Easy  | [Python](./branch_sums/branch_sums.py) - [TypeScript](./branch_sums/branch_sums.ts) - [Java](./branch_sums/branch_sums.java) - [Go](./branch_sums/branch_sums.go)                 |
+| Bubble Sort   | Easy  | [Python](./bubble_sort/bubble_sort.py) - [TypeScript](./bubble_sort/bubble_sort.ts) - [Java](./bubble_sort/bubble_sort.java) - [Go](./bubble_sort/bubble_sort.go)                 |
 
 ## Contributing
 
