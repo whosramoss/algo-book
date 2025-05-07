@@ -22,6 +22,7 @@
 | [Bubble Sort](.//bubble_sort//readme.md)                       | Easy | [Python](./bubble_sort/bubble_sort.py) - [TypeScript](./bubble_sort/bubble_sort.ts) - [Java](./bubble_sort/bubble_sort.java) - [Go](./bubble_sort/bubble_sort.go)                                                                                                 |
 | [Caesar Cipher Encryptor](./caesar_cipher_encryptor/readme.md) | Easy | [Python](./caesar_cipher_encryptor/caesar_cipher_encryptor.py) - [TypeScript](./caesar_cipher_encryptor/caesar_cipher_encryptor.ts) - [Java](./caesar_cipher_encryptor/caesar_cipher_encryptor.java) - [Go](./caesar_cipher_encryptor/caesar_cipher_encryptor.go) |
 | [Class Photos](./class_photos/readme.md)                       | Easy | [Python](./class_photos/class_photos.py) - [TypeScript](./class_photos/class_photos.ts) - [Java](./class_photos/class_photos.java) - [Go](./class_photos/class_photos.go)                                                                                         |
+| [Depth-First Search](./depth_fisrt_search/readme.md)           | Easy | [Python](./depth_fisrt_search/depth_fisrt_search.py) - [TypeScript](./depth_fisrt_search/depth_fisrt_search.ts) - [Java](./depth_fisrt_search/depth_fisrt_search.java) - [Go](./depth_fisrt_search/depth_fisrt_search.go)                                         |
 
 ## Contributing
 
