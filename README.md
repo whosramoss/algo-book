@@ -15,6 +15,14 @@
 
 <br/>
 
+## About
+Algo-Book is a curated collection of algorithms implemented in modern programming languages, designed to help developers and students understand, practice, and master algorithmic thinking. It includes classic algorithmic problems like sorting, searching, graph traversal, dynamic programming, and more — each with clean, well-documented code.
+
+## Features:
+- Ready-to-use implementations of common algorithms
+- Clean, readable, and testable code
+
+#### Algorithms:
 | Name                                                                 | Easy | Files                                                                                                                                                                                                                                                                                     |
 | -------------------------------------------------------------------- | ---- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [Binary Search](./binary_search/readme.md)                           | Easy | [Python](./binary_search/binary_search.py) - [TypeScript](./binary_search/binary_search.ts) - [Java](./binary_search/binary_search.java) - [Go](./binary_search/binary_search.go)                                                                                                         |
@@ -26,6 +34,26 @@
 | [Find Closest Value in BST](./find_closest_value_in_bst/readme.md)   | Easy | [Python](./find_closest_value_in_bst/find_closest_value_in_bst.py) - [TypeScript](./find_closest_value_in_bst/find_closest_value_in_bst.ts) - [Java](./find_closest_value_in_bst/find_closest_value_in_bst.java) - [Go](./find_closest_value_in_bst/find_closest_value_in_bst.go)         |
 | [Find Three Largest numbers](./find_three_largest_numbers/readme.md) | Easy | [Python](./find_three_largest_numbers/find_three_largest_numbers.py) - [TypeScript](./find_three_largest_numbers/find_three_largest_numbers.ts) - [Java](./find_three_largest_numbers/find_three_largest_numbers.java) - [Go](./find_three_largest_numbers/find_three_largest_numbers.go) |
 
+
+## Big-O Notation
+Big-O Notation describes the performance of an algorithm in terms of time or space complexity relative to the input size n. It gives an upper bound on the number of operations an algorithm will take. This helps compare and evaluate algorithms for efficiency.
+
+#### Common Time Complexities (Fastest to Slowest):
+
+```
+O(1) > O(log n) > O(n) > O(n log n) > O(n²) > O(n³) > O(2ⁿ) > O(n!)
+```
+
+| Complexity | Name         | Description                                                                 | Example                                     | Performance                  |
+|------------|--------------|-----------------------------------------------------------------------------|---------------------------------------------|------------------------------|
+| O(1)       | Constant     | Execution time does **not** change with input size.                        | Accessing an element in an array by index   | ✅ Fastest possible complexity |
+| O(log n)   | Logarithmic  | Each step reduces the input size by a constant factor.                     | Binary Search                               | ✅ Excellent for large inputs |
+| O(n)       | Linear       | Time grows proportionally with input size.                                 | Looping through an array once               | ✅ Good for moderate inputs   |
+| O(n log n) | Linearithmic | Involves a linear pass plus a logarithmic operation.                       | Merge Sort, Quick Sort                      | ⚠️ Acceptable for large datasets |
+| O(n²)      | Quadratic    | Time grows with the square of the input size.                              | Bubble Sort, nested loops                   | ⚠️ Slows quickly with large n |
+| O(n³)      | Cubic        | Triple nested loops; used in naive matrix operations.                      | Naive matrix multiplication                 | ⚠️ Impractical for large n    |
+| O(2ⁿ)      | Exponential  | Time doubles with each additional input element.                           | Brute-force solutions to TSP                | 🚨 Infeasible for large inputs |
+| O(n!)      | Factorial    | Time grows factorially with input size.                                    | Generating all permutations (e.g., brute-force TSP) | 🚨 Becomes unusable fast      |
 ## Contributing
 
 If you want to contribute to `algo-book`, please make sure to review the [contribution guidelines](https://github.com/whosramoss/algo-book/blob/master/CONTRIBUTING.md). This project makes use of [GitHub issues](https://github.com/whosramoss/algo-book/issues) for
