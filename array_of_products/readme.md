@@ -6,6 +6,11 @@ Level **Medium**
 
 The problem is to return an array where each element is the product of all other elements in the array, except the one at the current index.
 
+### Complexity
+
+- Time Complexity: O(n)
+- Space Complexity: O(n)
+
 ### Problem Explanation:
 
 Given an array of integers, the task is to create a new array where each element is the product of all other elements in the original array. The product at each index should exclude the element at that index.
@@ -32,6 +37,11 @@ print(array_of_products([5, 1, 4, 2]))  # Output: [8, 40, 10, 20]
 ## 🇧🇷 Português
 
 O problema é retornar um array onde cada elemento é o produto de todos os outros elementos no array, exceto o elemento no índice atual.
+
+### Complexidade
+
+- Tempo: O(n)
+- Espaço: O(n)
 
 ### Explicação do Problema:
 
