@@ -86,6 +86,18 @@ O(1) > O(log n) > O(n) > O(n log n) > O(n²) > O(n³) > O(2ⁿ) > O(n!)
 | O(2ⁿ)      | Exponential  | Time doubles with each additional input element.       | Brute-force solutions to TSP                        | 🚨 Infeasible for large inputs   |
 | O(n!)      | Factorial    | Time grows factorially with input size.                | Generating all permutations (e.g., brute-force TSP) | 🚨 Becomes unusable fast         |
 
+#### Sort Algorithm with Time/Space Complexities (Fastest to Slowest):
+
+| Algorithm          | Best Case   | Average Case | Worst Case | Space Complexity  
+| ------------------ | ----------- | ------------ | ---------- | ------------ | 
+| **Bubble Sort**    | O(n)        | O(n²)      | O(n²)      | O(1)     |
+| **Selection Sort** | O(n²)       | O(n²)      | O(n²)      | O(1)     | 
+| **Insertion Sort** | O(n)        | O(n²)      | O(n²)      | O(1)     | 
+| **Merge Sort**     | O(n log n)  | O(n log n) | O(n log n) | O(n)     | 
+| **Quick Sort**     | O(n log n)  | O(n log n) | O(n²)      | O(log n) | 
+| **Heap Sort**      | O(n log n)  | O(n log n) | O(n log n) | O(1)     | 
+
+
 ## Contributing
 
 If you want to contribute to `algo-book`, please make sure to review the [contribution guidelines](https://github.com/whosramoss/algo-book/blob/master/CONTRIBUTING.md). This project makes use of [GitHub issues](https://github.com/whosramoss/algo-book/issues) for
