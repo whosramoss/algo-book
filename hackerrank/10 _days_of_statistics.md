@@ -32,12 +32,10 @@ $$mean= \mu = { \sum_{i=1}^n x_{i}\over n}$$
 
 $$\quad n = \textrm{number of values in data set}$$
 
-$$median = \left\{ 
-  \begin{array}{ c l }
-    X[\frac{n}{2}] & \quad \textrm{if n is even}\\
-    {(X[\frac{n-1}{2}] + X[\frac{n+1}{2}])\over 2}& \quad \textrm{if n is odd}
-  \end{array}
-\right.$$
+$$median = \begin{cases}
+  X[\frac{n}{2}] & \quad \textrm{if n is even}\\
+  \frac{X[\frac{n-1}{2}] + X[\frac{n+1}{2}]}{2} & \quad \textrm{if n is odd}
+\end{cases}$$
 
 $$X = \textrm{ordered list of values in data set}$$
 
